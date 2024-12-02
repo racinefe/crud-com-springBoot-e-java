@@ -1,5 +1,7 @@
 package br.com.crud.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,4 +19,8 @@ public class UsuarioService {
 		return usuarioRepository.save(usuario);
 	}
 	//Listar todos os Usuários
+	public List<Usuario> listarUsuarios(){
+		return usuarioRepository.findAll();
+	}
+	// Buscar usuário por ID
 }
