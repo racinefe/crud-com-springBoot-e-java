@@ -28,4 +28,13 @@ public class UsuarioService {
 		return usuarioRepository.findById(id);
 	}
 	//Atualizar usuário
+	public Usuario atualizarUsuario(Long id, Usuario usuarioAtualizado) {
+		Usuario usuario = usuarioRepository.findById(id)
+				.orElseThrow(() -> new RuntimeException("Usuário não Encontrado"));
+		usuario.setNome(usuarioAtualizado.getNome());
+		usuario.setIdade(usuarioAtualizado.getIdade());
+		usuario.setEmail(usuarioAtualizado.getEmail());
+		return usuarioRepository.save(usuario);
+	}
+	//Deletar Usuário
 }
