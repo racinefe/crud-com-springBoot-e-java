@@ -3,6 +3,7 @@ package br.com.crud.service;
 import java.util.List;
 import java.util.Optional;
 
+import org.apache.commons.logging.Log;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -37,4 +38,7 @@ public class UsuarioService {
 		return usuarioRepository.save(usuario);
 	}
 	//Deletar Usuário
+	public void deletarUsuario(Long id) {
+		usuarioRepository.deleteById(id);
+	}
 }
