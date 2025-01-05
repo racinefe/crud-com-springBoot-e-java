@@ -4,6 +4,7 @@
 
 - [Tecnologias Usadas](#tecnologias-usadas)
 - [Descrição do Projeto](#descrição-do-projeto)
+- [Testar a criação de um registro POST](#POST)
 - [Autor](#autor)
 
 ## Descrição do Projeto
@@ -33,7 +34,8 @@ Escolha o método POST.
    
 ##
 
-<img src="https://i.ibb.co/mccWvdB/Captura-de-tela-2025-01-05-115045.png">
+<img src
+="https://i.ibb.co/mccWvdB/Captura-de-tela-2025-01-05-115045.png">
 d) Testar a atualização de um registro (PUT)
 Escolha o método PUT.
 
