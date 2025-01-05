@@ -4,7 +4,6 @@
 
 - [Tecnologias Usadas](#tecnologias-usadas)
 - [Descrição do Projeto](#descrição-do-projeto)
-- [Testar a criação de um registro POST](#POST)
 - [Autor](#autor)
 
 ## Descrição do Projeto
